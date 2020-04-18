@@ -1,0 +1,53 @@
+{
+  "name": "y-ui-vue",
+  "version": "0.1.1",
+  "description": "JackYu self made UI components for Vue.js.",
+  "private": false,
+  "main": "dist/y-ui.min.js",
+  "typings": "types/index.d.ts",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode alpha",
+    "test:unit": "vue-cli-service test:unit",
+    "build:browser": "rollup --config build/rollup.config.base.js"
+  },
+  "keywords": [
+    "JackYu",
+    "vue",
+    "components"
+  ],
+  "author": "jackyulunduan@163.com",
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js": "^3.9.1",
+    "vue": "^2.5.17",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^7.0.0",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.4",
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-typescript": "^3.0.0",
+    "@vue/cli-plugin-unit-jest": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "autoprefixer": "^9.3.1",
+    "babel-core": "6.26.3",
+    "highlight.js": "^9.12.0",
+    "node-sass": "^4.9.0",
+    "q-theme-default": "0.0.47",
+    "rollup": "^0.56.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "sass-loader": "^7.0.1",
+    "ts-jest": "^23.0.0",
+    "typescript": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
