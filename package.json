@@ -1,8 +1,7 @@
 {
-  "name": "y-ui-vue",
+  "name": "jy-ui-vue",
   "version": "0.1.1",
   "description": "JackYu self made UI components for Vue.js.",
-  "private": false,
   "main": "dist/y-ui.min.js",
   "typings": "types/index.d.ts",
   "scripts": {
@@ -24,7 +23,8 @@
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@types/jest": "^23.1.4",

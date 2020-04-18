@@ -1,13 +1,13 @@
-# y-ui-vue
+# jy-ui-vue
 
-Y UI component for Vue.js
+JY UI component for Vue.js
 
 # Installation
-npm install y-ui-vue
+npm install jy-ui-vue
 
 # How to use？
 ```javascript
-import YUI from 'y-ui-vue'  
+import YUI from 'jy-ui-vue'  
 Vue.use(YUI)
 ```
 
