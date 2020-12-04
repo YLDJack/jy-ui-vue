@@ -35,7 +35,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "autoprefixer": "^9.3.1",
     "babel-core": "6.26.3",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "node-sass": "^4.9.0",
     "q-theme-default": "0.0.47",
     "rollup": "^0.56.3",
